@@ -10,9 +10,9 @@ To run **Final_Submission.py**, please first download two pre-processed data fil
 
 The two processed data files are produced using the following steps:
 
-1) count the numbers of null variables row-wise
+1) count the number of null feature values row-wise
 
-2) generate two additional features seperating the character and number of the feature "Product_Info_2"
+2) generate two additional features seperating the character and number parts of the feature "Product_Info_2"
 
 3) add interaction term between BMI and Age
 
@@ -20,9 +20,9 @@ The two processed data files are produced using the following steps:
 
 5) one-hot-encoding for 'Product_Info_2', 'Product_Info_2_char', 'Product_Info_2_num'
 
-6) encode all the categorical features with the out-of-fold mean of the target values
+6) encode all the categorical features with the out-of-fold mean of the target
 
-The final submission is composed of two seperate models with slightly different paramters. The model weights are 2 and 1 for two models respectively. One extra step is added after the model training results to find the optimal splits to map the raw regression results to the oridinal risk measures.
+The final submission is composed of two seperate models with slightly different paramters. The model weights are 2 and 1 for two models respectively. One extra step is added after the model training to find the optimal splits, in order to map the raw regression results to the oridinal risk measures.
 
 **Second, the ideas to complete a competition in a short time (coming soon).**
 
