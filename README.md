@@ -2,7 +2,7 @@
 
 https://www.kaggle.com/c/prudential-life-insurance-assessment
 
-**My solution and ideas to start and finish a kaggle competition in a week.**
+My solution and ideas to start and finish a kaggle competition in a week.
 
 **First, the solution.** 
 
