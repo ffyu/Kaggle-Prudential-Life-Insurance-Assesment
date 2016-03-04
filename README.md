@@ -2,6 +2,8 @@
 
 https://www.kaggle.com/c/prudential-life-insurance-assessment
 
+**Final private leader board ranking: 48/2619**
+
 My solution and ideas to start and finish a kaggle competition in a week.
 
 **First, the solution.** 
