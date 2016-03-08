@@ -32,7 +32,7 @@ The final submission is composed of two seperate models with slightly different 
 
 I started this competition a week before the deadline and had about 5 weekday nights plus the weekends to figure things out. I'll list the tasks for each day and hopefully that would provide a framework to manage the time and resources if a short turnaround is required.
 
-** Please note that this is just for data competitions like Kaggle where the training and test sets have been cleaned. In real world, the data munging part should take a significant amout of time and should be absolute key in machine learning pipeline.
+**Please note that this is just for data competitions like Kaggle where the training and test sets have been cleaned. In real world, the data munging part should take a significant amout of time and should be absolute key in machine learning pipeline.**
 
 
 **- Day 1:**
@@ -101,7 +101,8 @@ Stacking is another way of combining the models. It is a multi-layer model frame
 
 **This is a tight schedule, without doubt. I haven't listed all the technical details behind these bullet points. But I hope this would be helpful as a framework, especially when you face a scenario with reletively cleaned data, but short turnaround.**
 
-Please do not hesitate to reach me at feifeiyu1204@gmail.com for comments & suggestions.
+
+Please do not hesitate to reach me at **feifeiyu1204@gmail.com** for comments & suggestions.
 
 
 Best regards,
