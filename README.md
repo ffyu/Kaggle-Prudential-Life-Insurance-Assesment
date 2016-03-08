@@ -28,11 +28,11 @@ The two processed data files are produced using the following steps:
 The final submission is composed of two seperate models with slightly different paramters. The model weights are 2 and 1 respectively. One extra step is added after the model training to find the optimal splits. This step maximizes the quadratic weighted kappa with respect to 7 cut-off points. With those optimal cut-off points, the final prediction is then caculated by mapping the raw regression results to the oridinal risk measures.
 
 
-###Second, the ideas to complete a competition in a short time (coming soon).
+###Second, the ideas to complete a competition in a short time.
 
 I started this competition a week before the deadline and had about 5 weekday nights plus the weekends to figure things out. I'll list the tasks for each day and hopefully that would provide a framework to manage the time and resources if a short turnaround is required.
 
-**Please note that this is just for data competitions like Kaggle where the training and test sets have been cleaned. In real world, the data munging part should take a significant amout of time and should be absolute key in machine learning pipeline.**
+**Please note that this is just for data competitions like Kaggle where the training and test sets have been cleaned. In real world, the data munging part should take a significant amout of time and would be absolute key in machine learning pipeline.**
 
 
 **- Day 1:**
@@ -45,7 +45,7 @@ Day 1 is crucial. You should perform descriptive analysis to get an idea of what
 
 -- Data size and feature dimension (fit into the memory or not)
 
--- Missing values (How to impute the null values)
+-- Missing values (how to impute the null values)
 
 -- Distributions of the target (skewed or not)
 
@@ -72,6 +72,7 @@ Day 2 is all about model evaluation. You should build a mechanism to evaluate th
 **- Day 3:**
 
 1) Try different modeling algorithms 
+
 2) Benchmark different models using cross-validation 
 
 In day 3 we finally get to the modeling part. There are lots of excellent open source tools we can choose from, such as Scikit-learn, XGBoost, Keras, Vowpal Wabbit, etc. We need to take time to implement each of the tools to the specific data. After that, we should benchmark the model performance using cross-validation that we set up in day 2.
@@ -80,16 +81,17 @@ In day 3 we finally get to the modeling part. There are lots of excellent open s
 **- Day 4:**
 
 1) Focus on a couple of modeling methods that outporm others
+
 2) Grid-search for good set of parameters
 
-Due to the limited time, we need to focus on a couple of modeling methods after benchmarking in day 3. These two modeling methods are the ones we want to improve on. One direction is to find a better parameter grid. so we can set up the grid search of model parameters. Again, with short turnaround, the randomized parameter optimization is preferred over the exhaustive grid search.
+Due to the limited time, we need to focus on a couple of modeling methods after benchmarking in day 3. These two modeling methods are the ones we want to improve on. One direction is to find a better parameter grid. We can set up the grid search of model parameters. Again, with short turnaround, the randomized parameter optimization is preferred over the exhaustive grid search.
 
 
 **- Day 5 & 6:**
 
 1) Try ensemble
 
-At this point, you should have a set of good models with proper parameters. Also, you've got the local cross-validation set up. The next step to improve the model performance is to try ensemble of models. There are many ways that you can go. You can combine models with different model specifications, sampling strategies, objective funcions, encoding methods, etc.. The goal is to develop many well-performed yet diversified models and combine them. 
+At this point, you should have a number of good models with proper parameters. Also, you've got the local cross-validation set up. The next step for improving the model performance is to try ensemble of models. There are many ways that you can go. You can combine models with different specifications, sampling strategies, objective funcions, encoding methods, etc. The goal is to develop many well-performed yet diversified models and combine them. 
 
 
 **- Day 7:**
