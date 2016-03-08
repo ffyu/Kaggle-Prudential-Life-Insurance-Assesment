@@ -101,7 +101,7 @@ At this point, you should have a number of good models with proper parameters. A
 Stacking is another way of combining the models. It is a multi-layer model framework and would work well if models that are being stacked are diversified. 
 
 
-**This is a tight schedule, without doubt. I haven't listed all the technical details behind these bullet points. But I hope this would be helpful as a framework, especially when you face a scenario with reletively cleaned data, but short turnaround.**
+**This is a tight schedule. I haven't listed all the technical details behind these bullet points. But I hope this would be helpful as a framework, especially when you face a scenario with reletively cleaned data, yet short turnaround.**
 
 
 Please do not hesitate to reach me at **feifeiyu1204@gmail.com** for comments & suggestions.
