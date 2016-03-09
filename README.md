@@ -80,7 +80,7 @@ In day 3 we finally get to the modeling part. There are lots of excellent open s
 
 **- Day 4:**
 
-1) Focus on a couple of modeling methods that outporm others
+1) Focus on a couple of modeling methods that outperform others
 
 2) Grid-search for good set of parameters
 
