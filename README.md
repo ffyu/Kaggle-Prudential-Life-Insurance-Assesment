@@ -98,7 +98,7 @@ At this point, you should have a number of good models with proper parameters. A
 
 1) Try stacking
 
-Stacking is another way of combining the models. It is a multi-layer model framework and would work well if models that are being stacked are diversified. 
+Stacking is another way of combining the models. It is a multi-layer model framework and would work well if models that are being stacked are diversified. The original paper for stacking can be found [here](https://www.researchgate.net/publication/222467943_Stacked_Generalization).
 
 
 **This is a tight schedule. I haven't listed all the technical details behind these bullet points. But I hope this would be helpful as a framework, especially when you face a scenario with reletively cleaned data, yet short turnaround.**
